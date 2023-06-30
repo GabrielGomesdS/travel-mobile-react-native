@@ -140,7 +140,7 @@ const ItemScreen = ({ route }) => {
         )}
 
         {data
-        // ?.cuisine 
+        
         && (
           <View className="flex-row gap-2 items-center justify-start flex-wrap mt-4">
             <TouchableOpacity
@@ -152,9 +152,6 @@ const ItemScreen = ({ route }) => {
                   viagens brasileiras
                   </Text>
               </TouchableOpacity>
-            {/* {data
-            ?.cuisine.map
-            ((n) => ( */}
               <TouchableOpacity
                 // key={n.key}
                 className="px-2 py-1 rounded-md bg-emerald-100"
